@@ -81,15 +81,15 @@ class _MainPageState extends State<MainPage> {
         items: const [
           BottomNavigationBarItem(
             icon: Icon(Icons.home),
-            label: 'Page 1',
+            label: 'Home',
           ),
           BottomNavigationBarItem(
-            icon: Icon(Icons.explore),
-            label: 'Page 2',
+            icon: Icon(Icons.bar_chart),
+            label: 'Reports',
           ),
           BottomNavigationBarItem(
-            icon: Icon(Icons.favorite),
-            label: 'Page 3',
+            icon: Icon(Icons.credit_card),
+            label: 'Cards',
           ),
           BottomNavigationBarItem(
             icon: Icon(Icons.person),
